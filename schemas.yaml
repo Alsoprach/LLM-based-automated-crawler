@@ -1,0 +1,27 @@
+https://news.qq.com/:
+  properties:
+    QQ_News_article_URLlink:
+      type: string
+    QQ_News_article_title:
+      type: string
+  required:
+  - QQ_News_article_title
+  - QQ_News_article_URLlink
+https://www.zaobao.com:
+  properties:
+    LIANHE_ZAOBAO_News_article_URLlink:
+      type: string
+    LIANHE_ZAOBAO_News_article_title:
+      type: string
+  required:
+  - LIANHE_ZAOBAO_News_article_title
+  - LIANHE_ZAOBAO_News_article_URLlink
+https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5:
+  properties:
+    WIKI_article_URLlink:
+      type: string
+    WIKI_article_title:
+      type: string
+  required:
+  - WIKI_article_title
+  - WIKI_article_URLlink
